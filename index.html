@@ -564,7 +564,7 @@
 				html = html + item.type+' '+item.num+' '+item.balance+'<br>';
 				});
 				}
-				$('Balance').innerHTML = html;
+				document.getElementById('Balance').innerHTML = html;
             },
             error: function () {
                 alert('Ошибка!');
