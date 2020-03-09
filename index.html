@@ -523,6 +523,7 @@
 				  <div class="widget-header">Счет пользователя</div>
 				  <input id="cardNumber" value="964310020">
 				  <button id="blanceButton">Узнать баланс</button>
+				  <div id="Balance"></div>
 				  </div>
                </div>
                <div style="position: static; width: 300px; height: 630px; display: block; vertical-align: baseline; float: none;"></div>
@@ -547,6 +548,28 @@
       <link rel="stylesheet" id="su-icons-css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all">
    </body>
    <script>
-   $('#blanceButton').click(function(){alert(1)});
+   $('#blanceButton').click(function(){
+        var url = 'https://api.elschool.ru/food/getbills/';
+        var params = $('#cardNumber').val();
+		$('Balance').innerHTML="";
+        var obj = $(this);
+        $.ajax({
+            type: 'GET',
+            url: url+params,
+            success: function (data) {
+				if(data.status == 200){
+                var html = '';
+				data.bills.forEach(function(item, i, arr) {
+				
+				html = html + item.type+' '+item.num+' '+item.balance+'<br>';
+				});
+				}
+				$('Balance').innerHTML = html;
+            },
+            error: function () {
+                alert('Ошибка!');
+            }
+        });   
+   });
    </script>
 </html>
