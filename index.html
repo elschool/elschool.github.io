@@ -563,8 +563,10 @@
 				
 				html = html + item.type+' '+item.num+' '+item.balance+'<br>';
 				});
-				}
 				document.getElementById('Balance').innerHTML = html;
+				}else{
+				document.getElementById('Balance').innerHTML = 'Счет не найден';
+				}
             },
             error: function () {
                 alert('Ошибка!');
