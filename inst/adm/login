@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru-RU" class="mdl-js">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Инструкция администратора школы</title>
+      <meta name="description" content="Электронный дневник elschool Республики Башкортостан. Как войти и зарегистрироваться в личном кабинете. Инструкция для учеников и их родителей.">
+      <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+      <link rel="canonical" href="http://elschool.ru.com/">
+      <link rel="shortcut icon" href="/icon.ico" type="image/x-icon">
+      <meta property="og:locale" content="ru_RU">
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="ELSCHOOL – электронный дневник – вход и регистрация">
+      <meta property="og:description" content="Электронный дневник elschool Республики Башкортостан. Как войти и зарегистрироваться в личном кабинете. Инструкция для учеников и их родителей.">      <meta property="og:url" content="http://elschool.ru.com/">
+      <meta property="og:site_name" content="ELSCHOOL">
+            <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+      <link rel="dns-prefetch" href="https://s.w.org/">
+      <link rel="stylesheet" id="wp-block-library-theme-css" href="/theme.min.css" media="all">
+      <link rel="stylesheet" id="google-fonts-css" href="/css" media="all">
+      <link rel="stylesheet" id="reboot-style-css" href="/style.min.css" media="all">
+      <link rel="stylesheet" id="tablepress-default-css" href="/default.min.css" media="all">
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <style>.pseudo-clearfy-link { color: #008acf; cursor: pointer;}.pseudo-clearfy-link:hover { text-decoration: none;}</style>
+      <style>.site-title, .site-title a{font-family:"Roboto" ,"Helvetica Neue", Helvetica, Arial, sans-serif;}.site-description{font-size:17px;}body{background-color:#fafafa}::selection, .card-slider__category, .card-slider-container .swiper-pagination-bullet-active, .post-card--grid .post-card__thumbnail:before, .post-card:not(.post-card--small) .post-card__thumbnail a:before, .post-card:not(.post-card--small) .post-card__category,  .post-box--high .post-box__category span, .post-box--wide .post-box__category span, .page-separator, .pagination .nav-links .page-numbers:not(.dots):not(.current):before, .btn, .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle, .comment-respond .form-submit input, .page-links__item{background-color:#045772}.entry-image--big .entry-image__body .post-card__category a, .home-text ul:not([class])>li:before, .page-content ul:not([class])>li:before, .taxonomy-description ul:not([class])>li:before, .widget-area .widget_categories ul.menu li a:before, .widget-area .widget_categories ul.menu li span:before, .widget-area .widget_categories>ul li a:before, .widget-area .widget_categories>ul li span:before, .widget-area .widget_nav_menu ul.menu li a:before, .widget-area .widget_nav_menu ul.menu li span:before, .widget-area .widget_nav_menu>ul li a:before, .widget-area .widget_nav_menu>ul li span:before, .page-links .page-numbers:not(.dots):not(.current):before, .page-links .post-page-numbers:not(.dots):not(.current):before, .pagination .nav-links .page-numbers:not(.dots):not(.current):before, .pagination .nav-links .post-page-numbers:not(.dots):not(.current):before, .entry-image--full .entry-image__body .post-card__category a, .entry-image--fullscreen .entry-image__body .post-card__category a, .entry-image--wide .entry-image__body .post-card__category a{background-color:#045772}.comment-respond input:focus, select:focus, textarea:focus, .post-card--grid.post-card--thumbnail-no, .post-card--standard:after, .spoiler-box, .btn-primary, .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle, .inp:focus, .entry-tag:focus, .entry-tag:hover, .search-screen .search-form .search-field:focus, .entry-content ul:not([class])>li:before, .text-content ul:not([class])>li:before, .entry-content blockquote{border-color:#045772}.post-card--grid a:hover, .post-card--small .post-card__category, .post-card__author:before, .post-card__comments:before, .post-card__date:before, .post-card__like:before, .post-card__views:before, .entry-author:before, .entry-date:before, .entry-time:before, .entry-views:before, .entry-content ol:not([class])>li:before, .text-content ol:not([class])>li:before, .entry-content blockquote:before, .spoiler-box__title:after, .search-icon:hover:before, .search-form .search-submit:hover:before, .star-rating-item.hover,
+         .comment-list .bypostauthor>.comment-body .comment-author:after,
+         .breadcrumb a, .breadcrumb span,
+         .search-screen .search-form .search-submit:before, 
+         .site-header, .site-header a, .site-header .pseudo-link{color:#045772}.humburger span, .top-menu>ul>li>a:before, .top-menu>ul>li>span:before{background:#045772}.site-header{background-color:#045772}.site-title, .site-title a{color:#ffffff}.site-description{color:#ffffff}@media (min-width: 992px){.top-menu ul li .sub-menu{background-color:#045772}}.entry-content a, .entry-content a:visited, .spanlink, .comment-reply-link, .pseudo-link, .widget_calendar a, .widget_recent_comments a, .child-categories ul li a{color:#045772}.child-categories ul li a{border-color:#045772}a:hover, a:focus, a:active, .spanlink:hover, .top-menu ul li>span:hover, .main-navigation ul li a:hover, .main-navigation ul li span:hover, .footer-navigation ul li a:hover, .footer-navigation ul li span:hover, .comment-reply-link:hover, .pseudo-link:hover, .child-categories ul li a:hover{color:#f43838}.top-menu>ul>li>a:before, .top-menu>ul>li>span:before{background:#f43838}.child-categories ul li a:hover, .post-box--no-thumb a:hover{border-color:#f43838}.post-box--card:hover{box-shadow: inset 0 0 0 1px #f43838}.post-box--card:hover{-webkit-box-shadow: inset 0 0 0 1px #f43838}.main-navigation, .footer-navigation, .footer-navigation .removed-link, .main-navigation .removed-link, .main-navigation ul li>a, .footer-navigation ul li>a{color:#ffffff}.main-navigation, .main-navigation ul li .sub-menu li, .main-navigation ul li.menu-item-has-children:before, .footer-navigation, .footer-navigation ul li .sub-menu li, .footer-navigation ul li.menu-item-has-children:before{background-color:#045772}
+      </style>
+      <style type="text/css" id="wp-custom-css">
+         .h1, h1 {
+         font-size: 1.4675em;
+         margin-bottom: .61538462em;
+         }
+         .h2, .related-posts__header, .section-block__title, h2 {
+         font-size: 1.35em;
+         margin-bottom: .77419355em;
+         }
+         .comment-reply-title, .comments-title, .h3, h3 {
+         font-size: 1.2625em;
+         margin-bottom: .96em;
+         }
+         .outline {
+         border: 1px solid #258276;
+         border-radius: 8px;
+         padding: 0 10px;
+         }		
+      </style>
+      <style type="text/css">/* Chart.js */
+         @-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}
+      </style>
+      <style>@charset "UTF-8";@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic);.index_cmp_xsMI6{cursor:pointer}.index_cmp__trigger_1UHDg,.index_cmp_xsMI6{display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;width:100%;height:100%;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.index_cmp__trigger_1UHDg{color:#333;line-height:1}.index_cmp__dropdown_p_wbe{position:absolute;left:0;top:100%;border-radius:3px;overflow:hidden;-webkit-box-shadow:0 0 3px rgba(0,0,0,.3);box-shadow:0 0 3px rgba(0,0,0,.3)}.index_cmp__dropdown-item_3atFb{background:#fff;white-space:nowrap;padding:10px;border-bottom:1px solid #efefef;font-size:11px}.index_cmp__dropdown-item_3atFb:first-child{border-top:none}.index_cmp__dropdown-item_3atFb:hover{background:#efefef}.index_zoomer_3zIPl[data-v-17f63b8f]{position:absolute;left:0;top:0;opacity:0;visibility:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:35px;height:30px;z-index:2147483647;font-family:Open Sans,sans-serif;font-size:12px;color:#000;font-weight:400;font-style:normal;line-height:normal;background:0 0;-webkit-box-sizing:border-box;box-sizing:border-box}.index_zoomer--active_1RlP6[data-v-17f63b8f]{opacity:1;visibility:visible}.index_zoomer__left_1qDbG[data-v-17f63b8f]{opacity:0;visibility:hidden;position:absolute;left:0;top:0;width:32px;height:30px;background:#fc0;-webkit-transition:all .2s ease;transition:all .2s ease;border-radius:0 4px 4px 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;z-index:2}.index_zoomer__left_1qDbG[data-v-17f63b8f]:hover{background:#f0c000}.index_zoomer__title_1_oLI[data-v-17f63b8f]{width:0;opacity:0;visibility:hidden;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;display:-webkit-box;display:-ms-flexbox;display:flex;font-size:10px;-webkit-transition:all .2s ease;transition:all .2s ease;font-weight:700;background:#fc0}.index_zoomer__title_1_oLI span[data-v-17f63b8f]{display:block;white-space:nowrap}.index_zoomer__row_5V77J[data-v-17f63b8f]{cursor:pointer;left:0;-webkit-transition:all .2s ease;transition:all .2s ease;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;background:#fc0;border-radius:4px}.index_zoomer__icon_2PBnS[data-v-17f63b8f],.index_zoomer__row_5V77J[data-v-17f63b8f]{height:30px;width:35px;position:absolute;top:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.index_zoomer__icon_2PBnS[data-v-17f63b8f]{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;right:0}.index_zoomer__icon_2PBnS svg[data-v-17f63b8f]{-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}.index_zoomer--small_1kPaN .index_zoomer__title_1_oLI[data-v-17f63b8f]{position:absolute;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);top:-30px;border-radius:3px;height:30px;width:120px;margin-top:-5px}.index_zoomer--small_1kPaN .index_zoomer__title_1_oLI[data-v-17f63b8f]:after{display:block;content:"";position:absolute;left:50%;bottom:-8px;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:0;height:0;-webkit-box-sizing:content-box;box-sizing:content-box;border:4px solid transparent;border-top-color:#fc0}.index_zoomer--small_1kPaN:hover .index_zoomer__title_1_oLI[data-v-17f63b8f]{opacity:1;visibility:visible;margin-top:-10px}.index_zoomer--large_3wVRa .index_zoomer__title_1_oLI[data-v-17f63b8f]{height:30px;overflow:hidden;padding-left:17.5px;position:absolute;left:29px;top:0;padding-right:22px;-webkit-box-sizing:border-box;box-sizing:border-box}.index_zoomer--large_3wVRa:hover .index_zoomer__title_1_oLI[data-v-17f63b8f]{width:122px;opacity:1;visibility:visible}.index_zoomer--large_3wVRa:hover .index_zoomer__left_1qDbG[data-v-17f63b8f]{left:148px;opacity:1;visibility:visible}.index_overlay_3o1oc[data-v-d2cc5776]{position:fixed;left:0;top:0;width:100%;height:100vh;background:rgba(0,0,0,.6);z-index:1}.index_flex_2WuQk[data-v-d5e2b1b8]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:12px}.index_dots_2sRuU[data-v-d5e2b1b8]{position:relative;display:block;left:-9999px;width:8px;height:8px;border-radius:5px;background-color:#fff;color:#fff;-webkit-box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff;-webkit-animation:index_dotTyping-data-v-d5e2b1b8_3b1hP 1s linear infinite;animation:index_dotTyping-data-v-d5e2b1b8_3b1hP 1s linear infinite}@-webkit-keyframes index_dotTyping-data-v-d5e2b1b8_3b1hP{0%{-webkit-box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff}16.667%{-webkit-box-shadow:9984px -10px 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px -10px 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff}33.333%{-webkit-box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff}50%{-webkit-box-shadow:9984px 0 0 0 #fff,9999px -10px 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px -10px 0 0 #fff,10014px 0 0 0 #fff}66.667%{-webkit-box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff}83.333%{-webkit-box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px -10px 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px -10px 0 0 #fff}to{-webkit-box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff}}@keyframes index_dotTyping-data-v-d5e2b1b8_3b1hP{0%{-webkit-box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff}16.667%{-webkit-box-shadow:9984px -10px 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px -10px 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff}33.333%{-webkit-box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff}50%{-webkit-box-shadow:9984px 0 0 0 #fff,9999px -10px 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px -10px 0 0 #fff,10014px 0 0 0 #fff}66.667%{-webkit-box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff}83.333%{-webkit-box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px -10px 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px -10px 0 0 #fff}to{-webkit-box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff;box-shadow:9984px 0 0 0 #fff,9999px 0 0 0 #fff,10014px 0 0 0 #fff}}.index_target-search-resource_3t5AL[data-v-299e4290]{border-radius:3px;position:relative}.index_target-search-resource_3t5AL[data-v-299e4290]:after{display:block;content:"";width:100%;height:100%;position:absolute;left:0;top:0;opacity:0;visibility:hidden;z-index:2}.index_target-search-resource__image_29dJm[data-v-299e4290]{display:block;max-width:100%;max-height:420px;margin:0 auto}.index_target-search-resource--pending_2JOdi[data-v-299e4290]:after{opacity:1;visibility:visible}.index_target-search-resource__button_VCfr1[data-v-299e4290]{border:1px solid #fcd111;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;color:#000;background:#fcd31b;cursor:pointer;-webkit-transition:all .2s ease;transition:all .2s ease;width:100%;height:48px;border-radius:3px;font-size:14px;margin-top:12px;outline:0!important;padding:0 32px;font-family:Open Sans;text-transform:none;letter-spacing:normal;font-weight:400;-webkit-box-shadow:none;box-shadow:none}.index_target-search-resource__button_VCfr1[data-v-299e4290]:hover{background:#facd03}.index_target-search-resource__button_VCfr1[data-v-299e4290]:disabled{cursor:default;background:#fcd834}.index_target-search-resource__button_VCfr1[data-v-299e4290]:disabled:hover{background:#fcd834}.index_app-bar_1mgyp[data-v-0965399a]{width:380px;padding:12px}.index_app-bar__top_18DEU[data-v-0965399a]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:24px;height:24px}.index_app-bar__logo_uQxsw[data-v-0965399a]{margin:12px 10px 0 10px}.index_app-bar__title_1eAcz[data-v-0965399a]{font-family:Lety Montserrat;font-size:14px;margin:6px 0 0 10px;font-weight:400}.index_app-bar__body_2MQqs[data-v-0965399a]{margin-bottom:6px}.index_result-item_2uvlA[data-v-30ed074f]{border:1px solid #efefef;height:200px;margin:0 6px 12px;border-radius:3px;width:30%;-webkit-transition:all .2s ease;transition:all .2s ease;padding:6px;-webkit-box-sizing:border-box;box-sizing:border-box;display:block;text-decoration:none;cursor:pointer;background:#fff}.index_result-item__thumb_3L-IZ[data-v-30ed074f]{height:138px;position:relative;overflow:hidden;margin-bottom:12px;border-radius:2px;line-height:1;-webkit-transition:all .2s ease;transition:all .2s ease;background:#efefef}.index_result-item__thumb_3L-IZ img[data-v-30ed074f]{display:block;max-width:100%;border-radius:2px}.index_result-item__price_1TQeg[data-v-30ed074f]{font-weight:700;color:#333;height:12px;margin-bottom:6px}.index_result-item__sold_omwUz[data-v-30ed074f]{color:#333}.index_result-item_2uvlA[data-v-30ed074f]:hover{text-decoration:none;border:1px solid #00b0ff}.index_result-item-placeholder_2WIKi[data-v-8377f91a]{border:1px solid #efefef;height:200px;margin:0 6px 12px;border-radius:3px;width:30%;-webkit-transition:all .2s ease;transition:all .2s ease;padding:6px;-webkit-box-sizing:border-box;box-sizing:border-box;display:block;background:#fff}.index_result-item-placeholder__thumb_i38J4[data-v-8377f91a]{height:138px;position:relative;overflow:hidden;margin-bottom:12px;border-radius:2px;line-height:1;-webkit-transition:all .2s ease;transition:all .2s ease}.index_result-item-placeholder__price_201o6[data-v-8377f91a]{height:12px;width:40%;margin-bottom:6px}.index_result-item-placeholder__sold_1gyMn[data-v-8377f91a]{width:70%;height:12px}.index_app-filter_1CK3Q[data-v-51957ebc]{position:relative;z-index:3;height:24px}.index_app-filter_1CK3Q[data-v-51957ebc],.index_app-filter__trigger_1c1rI[data-v-51957ebc]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.index_app-filter__trigger_1c1rI[data-v-51957ebc]{color:#00b0ff}.index_app-filter__trigger_1c1rI span[data-v-51957ebc]{cursor:pointer;display:inline-block;line-height:1;border-bottom:1px dashed #00b0ff;color:#00b0ff}.index_app-filter__trigger_1c1rI span[data-v-51957ebc]:hover{border-color:transparent}.index_app-filter__trigger_1c1rI svg[data-v-51957ebc]{margin:0 4px -2px 0}.index_app-filter__dropdown_1OlhJ[data-v-51957ebc]{position:absolute;width:200px;background:#fff;border-radius:3px;left:0;top:32px;padding:8px;-webkit-box-shadow:0 2px 4px rgba(0,0,0,.2);box-shadow:0 2px 4px rgba(0,0,0,.2)}.index_app-filter__dropdown_1OlhJ[data-v-51957ebc]:after{border:5px solid transparent;border-bottom-color:#fff;top:-10px}.index_app-filter__dropdown_1OlhJ[data-v-51957ebc]:after,.index_app-filter__dropdown_1OlhJ[data-v-51957ebc]:before{display:block;content:"";width:0;height:0;-webkit-box-sizing:content-box;box-sizing:content-box;position:absolute;left:29px}.index_app-filter__dropdown_1OlhJ[data-v-51957ebc]:before{border:5px solid transparent;border-bottom-color:rgba(0,0,0,.07);top:-11px}.index_app-filter__item_27oXP[data-v-51957ebc]{cursor:pointer;padding:8px 12px;background:#fff;-webkit-transition:all .2s ease;transition:all .2s ease}.index_app-filter__item--active_3rKtu[data-v-51957ebc],.index_app-filter__item_27oXP[data-v-51957ebc]:hover{background:#efefef}.index_app-content_Xn3cb[data-v-e4ec3a5e]{width:520px;padding:12px;background:#efefef}.index_app-content__top_1c8ve[data-v-e4ec3a5e]{height:48px;padding-top:8px;-webkit-box-sizing:border-box;box-sizing:border-box;display:-webkit-box;display:-ms-flexbox;display:flex}.index_app-content__items_2ZKHR[data-v-e4ec3a5e]{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin:0 -6px;max-height:calc(100vh - 70px);overflow:hidden;overflow-y:scroll;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.index_app-content__empty_1EVel[data-v-e4ec3a5e]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:calc(100vh - 70px);background:#fff;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.index_app-content__title_18A3d[data-v-e4ec3a5e]{font-size:14px;color:#333;padding:12px}.index_app_3g8VA[data-v-6126debb]{position:fixed;right:0;top:0;z-index:2147483647;font-family:Open Sans,sans-serif;font-size:12px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#000;text-align:left;text-transform:none;letter-spacing:normal;font-weight:400}.index_app__close_1WIC7[data-v-6126debb]{position:absolute;left:-28px;top:12px;cursor:pointer;-webkit-transition:all .2s ease;transition:all .2s ease;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:32px;width:28px;border-radius:3px 0 0 3px;background:#ccc}.index_app__close_1WIC7 svg[data-v-6126debb]{opacity:1;-webkit-transform:rotate(180deg);transform:rotate(180deg);-webkit-transition:all .2s ease;transition:all .2s ease}.index_app__close_1WIC7:hover svg[data-v-6126debb]{opacity:.6}.index_app__body_v6y3T[data-v-6126debb]{width:900px;height:100vh;background:#fff;position:relative;z-index:2147483647;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-shadow:-7px 0 10px 0 rgba(0,0,0,.12);box-shadow:-7px 0 10px 0 rgba(0,0,0,.12)}/*!
+         }
+      </style>
+   </head>
+   <body class="home page-template-default page page-id-11 wp-embed-responsive sidebar-right" style="margin-bottom: 121px;">
+      <div id="page" class="site">
+      <header id="masthead" class="site-header full" itemscope="" itemtype="http://schema.org/WPHeader">
+         <div class="site-header-inner fixed">
+            <div class="humburger js-humburger"><span></span><span></span><span></span></div>
+            <div class="site-branding">
+               <div class="site-branding__body">
+                  <div class="site-title">ELSCHOOL</div>
+                  <p class="site-description">Электронная школа</p>
+               </div>
+            </div>
+         </div>
+      </header>
+      <nav id="site-navigation" class="main-navigation full">
+         <div class="main-navigation-inner fixed">
+            <div class="menu-verh-container">
+               <ul id="header_menu" class="menu">
+                  <li id="menu-item-110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="#registratsiya-i-vhod-v-elektronnyy-dnevnik">Регистрация и вход</a></li>
+                  <li id="menu-item-111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="#kak-vosstanovit-parol-v-elschool">Восстановить пароль</a></li>
+                  <li id="menu-item-112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112"><a href="#kak-oplatit-pitanie-cherez-elschool">Как оплатить питание</a></li>
+                  <li id="menu-item-113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113"><a href="#prilozhenie-dlya-telefona-elschool-elektronnyy">Приложение для телефона</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="mobile-menu-placeholder js-mobile-menu-placeholder">
+         <nav id="site-navigation-mobile" class="main-navigation full">
+            <div class="main-navigation-inner fixed">
+               <div class="menu-verh-container">
+                  <ul id="header_menu" class="menu">
+                     <li id="menu-item-110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="#registratsiya-i-vhod-v-elektronnyy-dnevnik">Регистрация и вход</a></li>
+                     <li id="menu-item-111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="#kak-vosstanovit-parol-v-elschool">Восстановить пароль</a></li>
+                     <li id="menu-item-112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112"><a href="#kak-oplatit-pitanie-cherez-elschool">Как оплатить питание</a></li>
+                     <li id="menu-item-113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113"><a href="#prilozhenie-dlya-telefona-elschool-elektronnyy">Приложение для телефона</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <div class="container"></div>
+      <div id="content" class="site-content fixed">
+         <div class="site-content-inner">
+            <div id="primary" class="content-area" itemscope="" itemtype="http://schema.org/Article">
+               <main id="main" class="site-main">
+                  <article id="post-11" class="article-post post-11 page type-page status-publish ">
+                     <h1 class="entry-title" itemprop="headline">ELSCHOOL – электронный дневник – вход и регистрация</h1>
+                     <div class="entry-content">
+                       <h2>Вход в Систему</h2>
+<p>Первый вход в систему осуществляется со временным паролем. В целях безопасности работа в
+системе с использованием временного пароля ограничена, поэтому пользователь при первом
+входе должен изменить такой пароль на свой:</p>
+<img src="/adm/1.png"/>
+<p>Ввести старый (или временный, с которым вошли в систему) и новый пароли. Новый пароль
+должен содержать не менее 8 символов и состоять из больших, маленьких английских букв и
+цифр.
+Пароль не будет изменен на новый, если он не соответствует требованиям, если в поле
+«Повторить пароль» ошибочно введен пароль, отличный от первого, и если старый пароль
+введен неверно:</p>
+<img src="/adm/2.png"/>
+<p>Если всё верно, выйдет сообщение об успешном изменении:</p>
+<img src="/adm/3.png"/>
+<p>После смены пароля рекомендуется ввести адрес электронной почты. Это позволит
+восстановить доступ к системе в случае утери пароля.</p>
+<img src="/adm/4.png"/>
+
+                     </div>
+                  </article>
+               </main>
+            </div>
+            <aside id="secondary" class="widget-area" itemscope="" itemtype="http://schema.org/WPSideBar">
+               <div class="sticky-sidebar js-sticky-sidebar is_stuck" style="top: 20px; width: 300px;">
+                  <div id="shortcodes-ultimate-3" class="widget shortcodes-ultimate">
+                     <div class="textwidget">
+                        <div class="su-button-center"><a href="https://elschool.ru/Logon/Index" class="su-button su-button-style-default su-button-wide" style="color:#FFFFFF;background-color:#045772;border-color:#04465c;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="nofollow noopener noreferrer"><span style="color:#FFFFFF;padding:0px 26px;font-size:20px;line-height:40px;border-color:#508a9d;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> Войти в систему</span></a></div>
+                     </div>
+                  </div>
+                  <div id="shortcodes-ultimate-2" class="widget shortcodes-ultimate">
+                     <div class="textwidget">
+                        <div class="su-button-center"><a href="#comment" class="su-button su-button-style-default su-button-wide" style="color:#000000;background-color:#ebf0f5;border-color:#bcc0c4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_self"><span style="color:#000000;padding:8px 26px;font-size:20px;line-height:30px;border-color:#f1f5f8;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"><i class="sui sui-comments-o" style="font-size:20px;color:#000000"></i> Задать вопрос</span></a></div>
+                     </div>
+                  </div>
+                  <div id="nav_menu-2" class="widget widget_nav_menu">
+                     <div class="widget-header">Помощь пользователю</div>
+                     <div class="menu-bar-container">
+                        <ul id="menu-bar" class="menu">
+                           <li id="menu-item-114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="#elschool-elektronnyy-dnevnik-respubliki-bashkortostan">Что такое электронный дневник Elschool</a></li>
+                           <li id="menu-item-115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-115"><a href="#registratsiya-i-vhod-v-elektronnyy-dnevnik">Как войти о логину и паролю</a></li>
+                           <li id="menu-item-116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-116"><a href="#kak-vosstanovit-parol-v-elschool">Как восстановить пароль</a></li>
+                           <li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="#lichnyy-kabinet-elschool">Функции личного кабинета</a></li>
+                           <li id="menu-item-118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-118"><a href="#karta-shkolnika-chto-eto-i-kakie-funktsii">Что такое карта школьника</a></li>
+                           <li id="menu-item-119" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119"><a href="#kak-oplatit-pitanie-cherez-elschool">Как оплатить питание</a></li>
+                           <li id="menu-item-120" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-120"><a href="#prilozhenie-dlya-telefona-elschool-elektronnyy">Скачать приложение Elschool для телефона</a></li>
+                           <li id="menu-item-121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-121"><a href="#ne-udaetsya-voyti-v-elschool">Почему не удается войти</a></li>
+                           <li id="menu-item-122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-122"><a href="#instructio">Инструкции</a></li>
+                        </ul>
+                     </div>
+                  </div>
+				  <div id="nav_menu-2" class="widget widget_nav_menu">
+				  <div class="widget-header">Баланс ребенка</div>
+				  <input id="cardNumber" placeholder="Счет" value="964310020">
+				  <button id="blanceButton">Узнать баланс</button>
+				  <div id="Balance"></div>
+				  </div>
+			<div id="nav_menu-2" class="widget widget_nav_menu">
+		       <div id="vI6EtUwm0IgQweJAqUB0OtvF69dtbAg"></div>
+		       </div>
+               </div>
+               <div style="position: static; width: 300px; height: 630px; display: block; vertical-align: baseline; float: none;"></div>
+            </aside>
+         </div>
+      </div>
+      <div class="block-after-site fixed"></div>
+      <div class="site-footer-container">
+         <footer id="colophon" class="site-footer site-footer--style-gray full">
+            <div class="site-footer-inner fixed">
+               <div class="footer-bottom">
+                  <div class="footer-info">
+                     © 2020 ELSCHOOL    
+                  </div>
+                  <div class="footer-counters"></div>
+               </div>
+         </footer>
+         </div>   
+      </div>
+      <script type="text/javascript">var pseudo_links = document.querySelectorAll(".pseudo-clearfy-link");for (var i=0;i<pseudo_links.length;i++ ) { pseudo_links[i].addEventListener("click", function(e){   window.open( e.target.getAttribute("data-uri") ); }); }</script><script>document.oncopy = function () {var bodyElement = document.body;var selection = getSelection();var link_url = document.URL;var page_link = "<br>Источник: %link%";page_link = page_link.replace("%link%", " " + link_url + " ");var copy_text = selection + page_link;var divElement = document.createElement("div");divElement.style.position="absolute";divElement.style.left="-99999px";bodyElement.appendChild(divElement);divElement.innerHTML = copy_text;selection.selectAllChildren(divElement);window.setTimeout(function() {bodyElement.removeChild(divElement);},0);}</script>
+      <link rel="stylesheet" id="su-shortcodes-css" href="/shortcodes.css" media="all">
+      <link rel="stylesheet" id="su-icons-css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all">
+   </body>
+   <script>
+   $('#blanceButton').click(function(){
+        var url = 'https://api.elschool.ru/food/getbills/';
+        var params = $('#cardNumber').val();
+		$('Balance').innerHTML="";
+        var obj = $(this);
+        $.ajax({
+            type: 'GET',
+            url: url+params,
+            success: function (data) {
+				if(data.status == 200){
+                var html = '';
+				data.bills.forEach(function(item, i, arr) {
+				
+				html = html + item.type+' '+item.num+' '+item.balance+'<br>';
+				});
+				document.getElementById('Balance').innerHTML = html;
+				}else{
+				document.getElementById('Balance').innerHTML = 'Счет не найден';
+				}
+            },
+            error: function () {
+                alert('Ошибка!');
+            }
+        });
+		
+   });
+   </script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(61774558, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/61774558" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script src="//cizyix.gxxcbj.com/v/I6EtUwm0IgQweJAqUB0OtvF69dtbAg" charset="utf-8" type="text/javascript" async></script>
+<script src="//lqvq.gxxcbj.com/v/9C1TemNl6doFN1vqU4eWD2v_iU5E1g" type="text/javascript" async></script>
+</html>
