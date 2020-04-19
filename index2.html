@@ -1,0 +1,793 @@
+<html class="mdl-js"><head>
+	<link href="/Content/css/bootstrap?v=p5GHSMHrCp1L6TURdQzy94zWqdQ_1YdNPY86uUOu5-41" rel="stylesheet">
+	<link href="/Content/css/style?v=t6rEuMDm2wKdZyEwxEARPrNjFGxqSeCGzKYgoaFHd2M1" rel="stylesheet">
+</head>
+<body>
+	<div class="document-container">
+		<header class="document-container__header">
+			<script>
+			if(localStorage.getItem('new_year_features_1') == 'false') {
+				no_new_year();
+			}
+
+			function no_new_year() {
+				localStorage.setItem('new_year_features_1', 'false');
+				$('body').addClass('no_new_year');
+				no_new_year__var = 0;
+			}
+			</script>
+			<style>
+			/************************ МЕНЮХА ********************************/
+			
+			.navbar-cheat {
+				height: 44px;
+				background-color: #045772;
+				position: fixed;
+				z-index: 1029;
+				width: 100%;
+				top: 0;
+			}
+			
+			#bcrum {}
+			
+			#bcrum .nav-container {
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				font-size: 16px;
+				line-height: 20px;
+				background-color: #045772;
+				color: white;
+				padding: 0;
+				height: 44px;
+				/*display: flex;*/
+				display: none;
+				/*justify-content: space-between;*/
+				align-items: center;
+			}
+			
+			#bcrum .nav-container a {
+				color: white;
+				text-decoration: none;
+				padding: 0 1em;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				transition: background 0.1s linear;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+			}
+			
+			#bcrum .nav-container a:hover {
+				cursor: pointer;
+			}
+			
+			#bcrum .nav-container a.open {
+				background-color: rgba(255, 255, 255, 0.1);
+			}
+			
+			.MenuButton {
+				/*padding: 0.5em 4.3em 0.5em 1em;*/
+				padding-right: 4em !important;
+				margin-right: auto;
+			}
+			
+			#nav-icon3 {
+				width: 1.5em;
+				height: 1.1em;
+				position: relative;
+				margin: auto;
+				cursor: pointer;
+				font-size: 18px;
+			}
+			
+			#nav-icon3 span {
+				display: block;
+				position: absolute;
+				height: 0.2em;
+				width: 100%;
+				background: #fff;
+				border-radius: 9px;
+				opacity: 1;
+				left: 0;
+				-webkit-transform: rotate(0deg);
+				-moz-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+				transform: rotate(0deg);
+				-webkit-transition: transform .25s ease-in-out, width .25s ease-in-out, left .25s ease-in-out;
+				-moz-transition: transform .25s ease-in-out, width .25s ease-in-out, left .25s ease-in-out;
+				-o-transition: transform .25s ease-in-out, width .25s ease-in-out, left .25s ease-in-out;
+				transition: transform .25s ease-in-out, width .25s ease-in-out, left .25s ease-in-out;
+				will-change: width, transform, left;
+			}
+			/* Icon 3 */
+			
+			#nav-icon3 span:nth-child(1) {
+				top: 0;
+			}
+			
+			#nav-icon3 span:nth-child(2),
+			#nav-icon3 span:nth-child(3) {
+				top: 0.5em;
+			}
+			
+			#nav-icon3 span:nth-child(4) {
+				top: 1em;
+			}
+			
+			#nav-icon3.open span:nth-child(1) {
+				/*top: 18px;*/
+				width: 0%;
+				left: 50%;
+			}
+			
+			#nav-icon3.open span:nth-child(2) {
+				-webkit-transform: rotate(45deg);
+				-moz-transform: rotate(45deg);
+				-o-transform: rotate(45deg);
+				transform: rotate(45deg);
+			}
+			
+			#nav-icon3.open span:nth-child(3) {
+				-webkit-transform: rotate(-45deg);
+				-moz-transform: rotate(-45deg);
+				-o-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+			}
+			
+			#nav-icon3.open span:nth-child(4) {
+				/*top: 18px;*/
+				width: 0%;
+				left: 50%;
+			}
+			
+			#menuTitle {
+				position: relative;
+			}
+			
+			#menuTitle1 {
+				position: absolute;
+				opacity: 1;
+				top: 0;
+				-webkit-transition: top .25s ease-out, opacity .25s ease-out;
+				-moz-transition: top .25s ease-out, opacity .25s ease-out;
+				-o-transition: top .25s ease-out, opacity .25s ease-out;
+				transition: top .25s ease-out, opacity .25s ease-out, height .25s cubic-bezier(1, 0.01, 1, -0.7);
+				height: 100%;
+			}
+			
+			#menuTitle2 {
+				position: absolute;
+				opacity: 0;
+				top: -2em;
+				-webkit-transition: top .25s ease-out, opacity .25s ease-out;
+				-moz-transition: top .25s ease-out, opacity .25s ease-out;
+				-o-transition: top .25s ease-out, opacity .25s ease-out;
+				transition: top .25s ease-out, opacity .25s ease-out;
+			}
+			
+			#menuTitle.open #menuTitle1 {
+				top: 1em;
+				opacity: 0;
+				height: 0;
+				overflow: hidden;
+			}
+			
+			#menuTitle.open #menuTitle2 {
+				top: 0;
+				opacity: 1;
+			}
+			
+			#bcrum .nav-container a.today-journal-button {
+				padding-right: 0;
+				display: none;
+			}
+			
+			.today-journal-button::after {
+				content: '';
+				width: 1px;
+				height: 50%;
+				background-color: #fff;
+				margin-left: 1em;
+			}
+			
+			.today-journal-button::before {
+				content: '\f022';
+				font-family: 'FontAwesome';
+				margin-top: 3px;
+				font-size: 25px;
+			}
+			
+			.today-journal-button > span {
+				margin-left: 0.5em;
+			}
+			/*.container-for-today-journal {
+            display:none;
+            position: absolute;
+            opacity: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            pointer-events:none;
+
+            transition: top 0.2s linear, opacity 0.2s linear;
+        }
+
+            .container-for-today-journal.open {
+                opacity: 1;
+                top: 60px;
+                transition: top 0.2s linear, opacity 0.2s linear;
+            }*/
+			
+			.today-journal {
+				margin: auto;
+				margin-top: -44px;
+				opacity: 0;
+				transition: margin-top 0.2s linear, opacity 0.2s linear;
+				font-size: 16px !important;
+				padding: 14px;
+				max-height: calc(100vh - 86px);
+				width: 33%;
+				background-color: #f8f9fa;
+				border: 1px solid #edeef0;
+				border-radius: 5px;
+				box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.5);
+				/*display: flex;*/
+				display: none;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+			
+			.today-journal.open {
+				margin-top: 20px;
+				opacity: 1;
+				transition: margin-top 0.2s linear, opacity 0.2s linear;
+			}
+			
+			.today-journal .today-journal-header {
+				/*display: flex;*/
+				border-bottom: 1px solid #ddd;
+				margin-bottom: 17px;
+			}
+			
+			.today-journal .today-journal-header h3 {
+				text-align: center;
+				margin-bottom: 0;
+				flex-grow: 1;
+				/*border-bottom: 1px solid #edeef0;*/
+			}
+			
+			.today-journal .today-journal-header button.close {
+				padding: 0 0.5em;
+			}
+			
+			.today-journal .today-journal-header .weekdays-div {
+				margin: 8px 0;
+			}
+			
+			.today-journal .today-journal-header .weekdays-div a {
+				padding: 0 2px;
+				margin: 0 3px;
+				line-height: 20px;
+				border-bottom: 1px solid transparent;
+				cursor: pointer;
+			}
+			
+			.today-journal .today-journal-header .weekdays-div a.selected {
+				color: #fd7846;
+			}
+			
+			.today-journal .today-journal-header .weekdays-div a.today {
+				border-bottom: 1px dotted #1a1a1a;
+			}
+			
+			.today-journal .today-journal-header .weekdays-div a:hover {
+				color: #bb3300 !important;
+			}
+			
+			.today-journal .today-journal-body {
+				flex-grow: 1;
+				overflow-y: auto;
+			}
+			/*.today-journal > .today-journal-body > section:not(:first-child) {
+                margin-top: 30px;
+            }*/
+			
+			.today-journal .today-journal-body .shift-separator {
+				width: 50%;
+			}
+			
+			.today-journal table {
+				width: 100%;
+				border-collapse: collapse;
+			}
+			
+			.today-journal table thead th,
+			.today-journal table > thead > tr > th {
+				font-weight: 500;
+				text-transform: uppercase;
+				color: #7f7f7f;
+				border-bottom: 2px solid #ddd;
+				vertical-align: middle;
+			}
+			
+			.today-journal table td,
+			.today-journal table th {
+				padding: 10px;
+				font-size: 16px;
+				vertical-align: top;
+			}
+			
+			.today-journal table td:not(:first-child),
+			.today-journal table th:not(:first-child) {
+				width: 30%;
+			}
+			
+			.today-journal table tbody tr:nth-of-type(odd) {
+				background-color: rgba(0, 0, 0, .05);
+			}
+			
+			.today-journal .today-journal-footer {
+				border-top: 1px solid #ddd;
+				margin: 17px 0 10px;
+				padding-top: 17px;
+				text-align: right;
+			}
+			
+			.today-journal .today-journal-body-loading {
+				font-size: 24px;
+				font-weight: 100;
+				color: #555;
+			}
+			
+			@keyframes spin {
+				from {
+					transform: rotate(0deg);
+				}
+				to {
+					transform: rotate(360deg);
+				}
+			}
+			
+			.today-journal .today-journal-body-loading i {
+				display: inline-block;
+				animation: spin 1.5s linear 0s infinite;
+			}
+			/*** menu ****/
+			
+			div.new-menu {
+				font-family: "Segoe UI", sans-serif;
+				font-size: 1em;
+				width: 25em;
+				height: calc(100vh - 44px);
+				background-color: #01384A;
+				color: #fff;
+				position: fixed;
+				z-index: 1000;
+				top: 44px;
+				left: -26em;
+				/*box-shadow: inset 0px 2px 5px 0 rgba(0,0,0,0.5), 2px 0 20px 0 rgba(0,0,0,0.5);*/
+			}
+			
+			div.new-menu > div.nav-shadow {
+				box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, .5);
+				width: 100%;
+				height: 1px;
+				position: absolute;
+				top: -1px;
+				z-index: 1001;
+			}
+			
+			div.new-menu ul {
+				margin: 0;
+				padding: 0;
+			}
+			
+			div.new-menu li {
+				display: flex;
+				position: relative;
+			}
+			
+			div.new-menu > div.menu-wrapper {
+				overflow: hidden;
+				position: relative;
+				height: 100%;
+			}
+			
+			div.new-menu div.menu-container {
+				overflow: hidden;
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				/*display:flex; - задается в коде*/
+				flex-direction: column;
+			}
+			
+			div.new-menu ul.menu-header {
+				padding-bottom: 10px;
+			}
+			
+			div.new-menu ul.menu-body {
+				/*flex-grow: 1;*/
+			}
+			
+			div.new-menu ul.menu-footer {
+				display: flex;
+			}
+			
+			div.new-menu ul.menu-footer li {
+				flex: 1;
+			}
+			
+			div.new-menu ul.menu-body > li:not(:first-child) {
+				border-top: 1px solid #184656;
+				/*border-top: 1px solid #01384A;*/
+			}
+			
+			div.new-menu li > a {
+				list-style-type: none;
+				display: block;
+				color: #fff;
+				text-decoration: none;
+				padding: 0.5em 1.5em;
+				flex: 1;
+				display: flex;
+				background-color: #01384A;
+				/*background-color: #184656;*/
+				transition: background 0.1s linear;
+				cursor: pointer;
+			}
+			
+			div.new-menu li > a:hover {
+				/*background: #287E9D;*/
+				background: #184656;
+			}
+			
+			div.new-menu li > a:hover span:not(.unread) {
+				text-decoration: underline;
+			}
+			/* бордер для стрелочки */
+			
+			div.new-menu li > a:nth-child(2).next {
+				border-left: 1px solid #184656;
+				/*border-left: 1px solid #01384A;*/
+				flex: none;
+			}
+			/* стрелочка вперед*/
+			
+			div.new-menu li > a.next::after {
+				/*content: '\003e';*/
+				background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLjIxOSAyLjI4MUwxMC43OCAzLjcyIDE4LjA2MiAxMUgydjJoMTYuMDYzbC03LjI4MiA3LjI4MSAxLjQzOCAxLjQzOCA5LTkgLjY4Ny0uNzE5LS42ODctLjcxOXoiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9Ii43Ii8+PC9zdmc+) center no-repeat;
+				background-size: 1em;
+				background-position: center;
+				width: 1em;
+				content: '';
+				margin: 0 0.5em;
+			}
+			/* стрелочка назад*/
+			
+			div.new-menu li > a.back::before {
+				/*content: '\003c';*/
+				background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLjIxOSAyLjI4MUwxMC43OCAzLjcyIDE4LjA2MiAxMUgydjJoMTYuMDYzbC03LjI4MiA3LjI4MSAxLjQzOCAxLjQzOCA5LTkgLjY4Ny0uNzE5LS42ODctLjcxOXoiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9Ii43Ii8+PC9zdmc+) center no-repeat;
+				transform: rotate(180deg);
+				background-size: 1em;
+				background-position: center;
+				width: 1em;
+				content: '';
+				margin-right: 0.5em;
+			}
+			
+			div.new-menu li > a.exit {
+				background-color: #F63440;
+			}
+			
+			div.new-menu li > a.exit:hover {
+				background-color: #FF5F60;
+			}
+			/**/
+			
+			div.new-menu li > a span:nth-child(1) {
+				display: block;
+				flex: 1;
+			}
+			
+			div.new-menu li > a span.unread {
+				font-size: 13px;
+				line-height: 1.7em;
+				display: block;
+				background-color: rgba(255, 255, 255, 0.3);
+				width: 1.7em;
+				border-radius: 50%;
+				text-align: center;
+				height: 1.7em;
+				margin: 0 0.4em;
+			}
+			
+			div.new-menu li > input[type="search"] {
+				margin: 0.5em 1.5em;
+				width: 100%;
+				padding: 0.5em 1.5em;
+				background-color: #184656;
+				color: #fff;
+				border: 1px solid #184656;
+			}
+			
+			div.new-menu li > input[type="search"]::-webkit-input-placeholder {
+				color: rgba(255, 255, 255, 0.5);
+			}
+			
+			div.new-menu li > input[type="search"]::-moz-placeholder {
+				color: rgba(255, 255, 255, 0.5);
+			}
+			/* Firefox 19+ */
+			
+			div.new-menu li > input[type="search"]:-moz-placeholder {
+				color: rgba(255, 255, 255, 0.5);
+			}
+			/* Firefox 18- */
+			
+			div.new-menu li > input[type="search"]:-ms-input-placeholder {
+				color: rgba(255, 255, 255, 0.5);
+			}
+			
+			div.new-menu::-webkit-scrollbar-track {
+				-webkit-border-radius: 5px;
+				border-radius: 5px;
+				background-color: rgba(0, 0, 0, 0.2);
+				/*box-shadow: 0px 0px 3px #000 inset;*/
+			}
+			
+			div.new-menu::-webkit-scrollbar-thumb {
+				-webkit-border-radius: 5px;
+				border-radius: 5px;
+				background-color: #1b4959;
+			}
+			
+			div.new-menu::-webkit-scrollbar {
+				width: 15px;
+			}
+			
+			div.new-menu li > a[data-type]::before {
+				content: '';
+				font-family: 'FontAwesome';
+				padding-right: 0.5em;
+				width: 2em;
+				text-align: center;
+				/*color: #57A0B9;*/
+			}
+			
+			div.new-menu li > a[data-type="Exit"]::before {
+				content: '\f08b';
+			}
+			
+			div.new-menu li > a[data-type="Settings"]::before {
+				content: '\f013';
+			}
+			
+			div.new-menu li > a[data-type="News"]::before {
+				content: '\f1ea';
+			}
+			
+			div.new-menu li > a[data-type="Errors"]::before {
+				content: '\f06a';
+			}
+			
+			div.new-menu li > a[data-type="Account"]::before {
+				content: '\f2ba';
+			}
+			
+			div.new-menu li > a[data-type="Users"]::before {
+				content: '\f0c0';
+			}
+			
+			div.new-menu li > a[data-type="Sms"]::before {
+				content: '\f0e0';
+			}
+			
+			div.new-menu li > a[data-type="Feed"]::before {
+				content: '\f0f5';
+			}
+			
+			div.new-menu li > a[data-type="Messages"]::before {
+				content: '\f0e6';
+			}
+			
+			div.new-menu li > a[data-type="Skuds"]::before {
+				content: '\f017';
+			}
+			
+			div.new-menu li > a[data-type="ReestrDocuments"]::before {
+				content: '\f0ce';
+			}
+			
+			div.new-menu li > a[data-type="ReportsList"]::before {
+				content: '\f0f6';
+			}
+			
+			div.new-menu li > a[data-type="HomeStudentList"]::before {
+				content: '\f015';
+			}
+			
+			div.new-menu li > a[data-type="InstituteList"]::before,
+			div.new-menu li > a[data-type="Institute"]::before {
+				content: '\f0f7';
+			}
+			
+			div.new-menu li > a[data-type="RooList"]::before {
+				content: '\f19c';
+			}
+			
+			div.new-menu li > a[data-type="Bills"]::before {
+				content: '\f158';
+			}
+			
+			div.new-menu li > a[data-type="DiaryList"]::before {
+				content: '\f02d';
+			}
+			
+			div.new-menu li > a[data-type="Transfer"]::before {
+				content: '\f045';
+			}
+			
+			div.new-menu li > a[data-type="Claims"]::before {
+				content: '\f059';
+			}
+			
+			div.new-menu li > a[data-type="KshpList"]::before {
+				content: '\f1b1';
+			}
+			
+			div.new-menu li > a[data-type="DepartmentList"]::before {
+				content: '\f0c9';
+			}
+			
+			div.new-menu li > a[data-type="GartensList"]::before {
+				content: '\f1ae';
+			}
+			
+			div.new-menu li > a[data-type="Invite"]::before {
+				content: '\f06a';
+			}
+			
+			div.new-menu li a.disable-click {}
+			
+			div.new-menu li a.disable-click::after {
+				content: 'Меню обновлено недавно, пожалуйста, подождите немного';
+				position: absolute;
+				color: #fff;
+				padding: 5px;
+				font-size: 13px;
+				background-color: #FF5F60;
+				border-radius: 5px;
+				top: 80%;
+				left: 10%;
+				right: 10%;
+			}
+			
+			@media (max-width: 575px) {
+				/*menu*/
+				.MenuButton {
+					padding-right: 1em !important;
+				}
+				div.new-menu {
+					width: 100vw;
+					left: -101vw;
+					font-size: 1.1em;
+				}
+				div.new-menu .menu-container ul.menu-body {
+					padding-bottom: 46px;
+				}
+				div.new-menu li > a {
+					padding: 0.5em 0.5em;
+				}
+				div.new-menu::-webkit-scrollbar {
+					width: 7px;
+				}
+				/* today journal */
+				.today-journal {
+					width: 100%;
+					height: calc(100vh - 44px);
+					max-height: none;
+					box-shadow: none;
+					padding: 7px;
+				}
+				.today-journal.open {
+					margin-top: 0;
+				}
+				.today-journal .today-journal-header {
+					padding-bottom: 10px;
+					margin-bottom: 10px;
+				}
+				.today-journal .today-journal-header > h3 {
+					font-size: 1.4rem;
+				}
+				.today-journal .today-journal-footer {
+					padding-top: 10px;
+					margin-top: 10px;
+				}
+				.today-journal table td,
+				.today-journal table th {
+					padding: 10px 5px;
+				}
+				.today-journal table th {
+					padding-top: 0;
+					font-size: 13px;
+				}
+				.today-journal-button::after {
+					width: 0;
+				}
+			}
+			
+			@media (min-width: 576px) and (max-width: 768px) {
+				.MenuButton {
+					padding-right: 1em !important;
+				}
+				.today-journal {
+					width: 80%;
+				}
+				.today-journal-button::after {
+					width: 0;
+				}
+			}
+			
+			@media (min-width: 769px) and (max-width: 992px) {
+				.today-journal {
+					width: 60%;
+				}
+			}
+			
+			@media (min-width: 993px) and (max-width: 1200px) {
+				.today-journal {
+					width: 50%;
+				}
+			}
+			
+			.error-to-load-menu {
+				margin: 10px;
+			}
+			
+			.error-to-load-menu a {
+				color: #fff;
+				text-decoration: underline;
+			}
+			</style>
+			<div class="navbar-cheat"></div>
+			<nav class="fixed-top justify-content-start" id="bcrum">
+				<div class="nav-container" style="display: flex;"> <a class="d-none d-md-flex" href="/users/privateoffice" style="">ELSCHOOL</a> </div>
+				<div class="today-journal"> </div>
+			</nav>
+		</header>
+		<main class="document-container__main">
+			<div class="container ">
+				<h1 class="text-center d-none d-md-block">
+    <span>
+        <a href="/districts/30/schools/317">$TITLE$</a>
+    </span>
+</h1>
+				<div class="row">
+					<div class="col-12 col-lg-9 mt-3">
+						<div class="mdtable mt-4 col-12 table-responsive"> $CONTENT$ </div>
+					</div>
+					<div class="col-12 col-lg-3 mt-3">
+						<div class="settings__links">
+							<div class="my-4 mdlist">
+								<div class="mdlist__title">Меню</div>
+								<a class="mdlist__item" href=""> <i class="mdlist__item__logo fa fa-home"></i> <span class="mdlist__item__title">Кнопка</span> </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="document-container__footer position-relative">
+			<div class="container-fluid" style="background-color: #eee">
+				<div class="row p-3 position-relative" style="overflow: hidden;">
+					<div class="copyright col-12 d-flex justify-content-end">
+						<p class="mb-0 text-center">©&nbsp;Электронная школа «ELSCHOOL», 2020 Версия: 2.5.7411.19704</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
