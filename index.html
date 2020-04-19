@@ -499,12 +499,6 @@
                         </ul>
                      </div>
                   </div>
-				  <div id="nav_menu-2" class="widget widget_nav_menu">
-				  <div class="widget-header">Баланс ребенка</div>
-				  <input id="cardNumber" placeholder="Счет" value="964310020">
-				  <button id="blanceButton">Узнать баланс</button>
-				  <div id="Balance"></div>
-				  </div>
 			<div id="nav_menu-2" class="widget widget_nav_menu">
 		       <div id="vI6EtUwm0IgQweJAqUB0OtvF69dtbAg"></div>
 		       </div>
@@ -526,38 +520,9 @@
          </footer>
          </div>   
       </div>
-      <script type="text/javascript">var pseudo_links = document.querySelectorAll(".pseudo-clearfy-link");for (var i=0;i<pseudo_links.length;i++ ) { pseudo_links[i].addEventListener("click", function(e){   window.open( e.target.getAttribute("data-uri") ); }); }</script><script>document.oncopy = function () {var bodyElement = document.body;var selection = getSelection();var link_url = document.URL;var page_link = "<br>Источник: %link%";page_link = page_link.replace("%link%", " " + link_url + " ");var copy_text = selection + page_link;var divElement = document.createElement("div");divElement.style.position="absolute";divElement.style.left="-99999px";bodyElement.appendChild(divElement);divElement.innerHTML = copy_text;selection.selectAllChildren(divElement);window.setTimeout(function() {bodyElement.removeChild(divElement);},0);}</script>
       <link rel="stylesheet" id="su-shortcodes-css" href="/shortcodes.css" media="all">
       <link rel="stylesheet" id="su-icons-css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all">
    </body>
-   <script>
-   $('#blanceButton').click(function(){
-        var url = 'https://api.elschool.ru/food/getbills/';
-        var params = $('#cardNumber').val();
-		$('Balance').innerHTML="";
-        var obj = $(this);
-        $.ajax({
-            type: 'GET',
-            url: url+params,
-            success: function (data) {
-				if(data.status == 200){
-                var html = '';
-				data.bills.forEach(function(item, i, arr) {
-				
-				html = html + item.type+' '+item.num+' '+item.balance+'<br>';
-				});
-				document.getElementById('Balance').innerHTML = html;
-				}else{
-				document.getElementById('Balance').innerHTML = 'Счет не найден';
-				}
-            },
-            error: function () {
-                alert('Ошибка!');
-            }
-        });
-		
-   });
-   </script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
